@@ -1,2 +1,4 @@
-package StreamAPIs.Class1;public class MappingStreams {
+package StreamAPIs.Class1;
+
+public class MappingStreams {
 }
