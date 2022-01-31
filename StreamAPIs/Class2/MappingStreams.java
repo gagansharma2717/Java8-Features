@@ -1,4 +1,4 @@
-package StreamAPIs.Class1;
+package StreamAPIs.Class2;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -30,6 +30,7 @@ public class MappingStreams {
 //      Second Way
         lower.stream().map((i)-> i.toUpperCase()).collect(Collectors.toList()).forEach(System.out::println);
 
+//        Example 2
         List<Integer> num1 = Arrays.asList(1,2,3,4,5,6);
         List<Integer> res= num1.stream().map((i) -> i*i*i).collect(Collectors.toList());
         res.forEach(System.out::println);
